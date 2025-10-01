@@ -1,0 +1,47 @@
+# Prompts utilizados por etapa
+
+Etapa 3
+
+<context>
+
+Quais tipos de dados possui nesta planilha escrita originalmente em português?
+
+</context>
+
+OUTPUT: Conceda informação completa do que se trata a planilha, sua estrutura e quantidade de linhas que possui. 
+
+---
+
+Etapa 4
+
+<context>
+
+Calcule a média aritmética das notas de cada um dos alunos.
+
+</context>
+
+OUTPUT: Realizar os cálculos das médias aritméticas das notas dos alunos individualmente 
+
+---
+
+Etapa 5
+
+<context> 
+
+Gere um gráfico de dispersão com os dados das médias dos alunos 
+
+</context> 
+
+OUTPUT: Criar um gráfico de dispersão utilizando os dados obtidos do cálculo das médias aritméticas das notas dos alunos
+
+---
+
+Etapa 6
+
+<context> 
+
+Classifique com as informações das médias aritméticas cada aluno como "Aprovado" se a média for >=7, e "Reprovado" se a média for <7.
+
+</context> 
+
+OUTPUT: Gerar uma análise extraindo a informação de Aprovado e Reprovado nos parâmetros dados para uma nova coluna (sugira um nome para esta nova coluna).
